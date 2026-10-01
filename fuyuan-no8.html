@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>富源八中｜富源县第八中学</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EAF0EE;--card:#F5F8F7;--ink:#12302d;--muted:#4b6662;--line:#c3d3ce;--acc:#9A5F12;--sun:#E3A54A;--deep:#163735;
+--serif:"Noto Serif SC","Songti SC","STSong","SimSun",serif;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1c1e;--card:#162a2c;--ink:#dfe9e6;--muted:#9bb3ae;--line:#2a4144;--acc:#E3A54A}}
+:root[data-theme="dark"]{--bg:#0f1c1e;--card:#162a2c;--ink:#dfe9e6;--muted:#9bb3ae;--line:#2a4144;--acc:#E3A54A}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(60px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.9 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--sun);outline-offset:3px}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;padding:calc(10px + env(safe-area-inset-top,0px)) 20px 10px;display:flex;gap:6px 18px;flex-wrap:wrap;justify-content:center;background:linear-gradient(#0b1d22cc,#0b1d2200);font-size:14px}
+nav a{color:#f1ece0;text-decoration:none;opacity:.85;padding:2px 0}
+nav a:hover{opacity:1;border-bottom:1px solid var(--sun)}
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#f6f1e4;overflow:hidden;background:linear-gradient(180deg,#0a1b20 0%,#17403f 52%,#c98f4f 90%);padding:90px 24px 200px}
+.sun{position:absolute;left:50%;bottom:19%;width:min(46vw,380px);aspect-ratio:1;border-radius:50%;transform:translateX(-50%);background:radial-gradient(circle,#ffd98f 0%,#e9a64d 38%,#e9a64d00 70%);animation:rise 2.6s cubic-bezier(.2,.7,.2,1) both}
+.ridges{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:46vh;min-height:240px}
+.ridges path{animation:rise 2.4s cubic-bezier(.2,.7,.2,1) both}
+.ridges .r2{animation-delay:.15s}.ridges .r3{animation-delay:.3s}.ridges .r4{animation-delay:.45s}
+@keyframes rise{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+.hero h1{position:relative;margin:0;font:900 clamp(4.2rem,21vw,12rem)/1.05 var(--serif);letter-spacing:.1em;padding-left:.1em;text-shadow:0 4px 40px #0007}
+.slogan{position:relative;margin:28px 0 0;font:500 clamp(1.1rem,3.6vw,1.9rem)/1.6 var(--serif);letter-spacing:.14em}
+.tag{position:relative;margin:18px 0 0;font-size:14px;letter-spacing:.2em;opacity:.8}
+main{max-width:1040px;margin:0 auto;padding:0 22px}
+section{padding:72px 0 8px}
+h2{margin:0 0 26px;font:900 clamp(1.8rem,5vw,2.6rem)/1.3 var(--serif);letter-spacing:.08em;display:flex;align-items:center;gap:16px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+p{margin:0 0 1.1em;max-width:44em}
+.lead{font:500 clamp(1.15rem,3vw,1.45rem)/1.9 var(--serif);max-width:34em}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);margin:40px 0 0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.stats div{padding:22px 16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats b{display:block;font:900 clamp(1.7rem,5.5vw,2.5rem)/1.2 var(--serif);color:var(--acc)}
+.stats span{font-size:14px;color:var(--muted)}
+.facts{margin:34px 0 0;display:grid;gap:0}
+.facts div{display:flex;gap:18px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.facts dt{flex:0 0 5.5em;color:var(--muted)}.facts dd{margin:0}
+.tl{list-style:none;margin:0;padding:0 0 0 26px;border-left:2px solid var(--line)}
+.tl li{position:relative;padding:0 0 34px 14px}
+.tl li::before{content:"";position:absolute;left:-35px;top:9px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--sun)}
+.tl time{font:700 1.25rem var(--serif);color:var(--acc)}
+.tl p{margin:2px 0 0}
+.group{margin:0 0 30px}
+.group h3{margin:0 0 10px;font:700 1.2rem var(--serif)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{padding:5px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:15px}
+.culture{display:grid;gap:14px}
+.culture div{padding:26px 22px;background:var(--deep);color:#f1ece0;border-radius:6px;position:relative;overflow:hidden}
+.culture div::after{content:"";position:absolute;right:-30px;bottom:-30px;width:120px;height:120px;border-radius:50%;background:radial-gradient(#e3a54a55,#e3a54a00 70%)}
+.culture h3{margin:0 0 8px;font:500 15px var(--sans);color:var(--sun);letter-spacing:.2em}
+.culture p{margin:0;font:700 clamp(1.4rem,4.5vw,1.8rem)/1.5 var(--serif);letter-spacing:.06em}
+blockquote{margin:34px 0 0;padding:4px 0 4px 20px;border-left:3px solid var(--sun);font:500 clamp(1.1rem,3vw,1.35rem)/1.9 var(--serif)}
+blockquote cite{display:block;margin-top:8px;font:400 14px var(--sans);color:var(--muted)}
+.bars{margin:28px 0 0;display:grid;gap:30px}
+.bar h3{margin:0 0 10px;font:700 1.15rem var(--serif)}
+.bar h3 em{font:700 .95rem var(--sans);font-style:normal;color:var(--acc);margin-left:10px}
+.row{display:flex;align-items:center;gap:12px;margin:6px 0;font-size:14px}
+.row i{flex:0 0 5.2em;color:var(--muted);font-style:normal}
+.row span{height:22px;border-radius:2px;display:block}
+.row b{font:900 1.1rem var(--serif)}
+.row .t{background:var(--line)}.row .a{background:linear-gradient(90deg,var(--sun),#c98f4f)}
+.note{font-size:14px;color:var(--muted)}
+.fee{margin:22px 0 0;max-width:36em}
+.fee div{display:flex;align-items:baseline;gap:8px;padding:9px 0}
+.fee dt::after{content:"";}
+.fee .dot{flex:1;border-bottom:1px dotted var(--muted);transform:translateY(-4px)}
+.fee dd{margin:0;font:700 1.1rem var(--serif)}
+.plan{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.plan div{flex:1 1 130px;padding:16px;background:var(--card);border:1px solid var(--line);border-radius:6px}
+.plan b{display:block;font:900 1.8rem/1.3 var(--serif);color:var(--acc)}
+footer{margin-top:90px;padding:46px 22px calc(46px + env(safe-area-inset-bottom,0px));background:var(--deep);color:#f1ece0;text-align:center}
+footer strong{display:block;font:900 1.9rem var(--serif);letter-spacing:.2em;margin-bottom:6px}
+footer p{margin:4px auto;font-size:14px;opacity:.85}
+@media (min-width:720px){
+.stats{grid-template-columns:repeat(4,1fr)}
+.culture{grid-template-columns:repeat(3,1fr)}
+section{padding-top:100px}
+.facts div{gap:28px}
+}
+@media (prefers-reduced-motion:reduce){.sun,.ridges path{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav aria-label="页面导航"><a href="#about">概况</a><a href="#history">历程</a><a href="#campus">校园</a><a href="#culture">文化</a><a href="#results">成果</a><a href="#admission">招生</a></nav>
+
+<header class="hero">
+<div class="sun"></div>
+<h1>富源八中</h1>
+<p class="slogan">让走出大山的孩子走入深山</p>
+<p class="tag">富源县第八中学　云南省一级三等高中</p>
+<svg class="ridges" viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true">
+<path class="r1" fill="#3a6a62" opacity=".75" d="M0 220L120 160 240 210 380 110 520 190 660 140 820 230 980 120 1120 200 1260 150 1440 210V400H0Z"/>
+<path class="r2" fill="#2a5650" d="M0 280L160 210 300 270 460 180 620 260 780 200 940 280 1100 215 1260 280 1440 225V400H0Z"/>
+<path class="r3" fill="#183d3a" d="M0 335L200 275 360 330 540 255 720 330 900 275 1080 335 1260 285 1440 330V400H0Z"/>
+<path class="r4" fill="var(--bg)" d="M0 385L240 345 480 380 760 340 1040 382 1300 350 1440 372V400H0Z"/>
+</svg>
+</header>
+
+<main>
+<section id="about">
+<h2>学校概况</h2>
+<p class="lead">富源八中是富源县委县政府为优化县域教育资源、推进集中办学重点打造的现代化全日制普通高级中学，2023年1月被正式评估认定为云南省一级三等高中。</p>
+<p>学校由原富源县第二中学、第三中学、第四中学三所乡镇高中整合组建而成，位于富源县城北片区胜境街道文澜街，毗邻沪昆高铁富源北站，坐落于东门河畔，交通便捷，校园布局合理、动静分区清晰。</p>
+<div class="stats">
+<div><b>160亩</b><span>总占地面积</span></div>
+<div><b>6万余㎡</b><span>校舍面积</span></div>
+<div><b>近2万㎡</b><span>绿化面积</span></div>
+<div><b>2.1亿元</b><span>总建设投入</span></div>
+<div><b>68个</b><span>教学班级</span></div>
+<div><b>近4000人</b><span>在校学生</span></div>
+<div><b>4500人</b><span>可住宿规模</span></div>
+<div><b>282人</b><span>教职工</span></div>
+</div>
+<dl class="facts">
+<div><dt>办学性质</dt><dd>财政补助事业单位</dd></div>
+<div><dt>主管单位</dt><dd>富源县教育体育局</dd></div>
+<div><dt>现任校长</dt><dd>张佳</dd></div>
+<div><dt>信用代码</dt><dd>12530325MB1608579H</dd></div>
+</dl>
+<h3 style="margin:44px 0 10px;font:700 1.3rem var(--serif)">师资力量</h3>
+<p>领导班子从富源县内一中、二中、三中、四中、六中及胜境中学选聘，汇集了县域内6所高中的核心管理精英。一线教师主要来自原富源二中、三中、四中的骨干教师，其中包含多名省级骨干教师和学科带头人。教师普遍持有高级中学教师资格证，覆盖全部高考文化科目及音体美特色教学方向。</p>
+</section>
+
+<section id="history">
+<h2>发展历程</h2>
+<ol class="tl">
+<li><time>2018年7月</time><p>学校成立，由原富源二中、三中、四中三所乡镇高中整合组建。</p></li>
+<li><time>2018年9月</time><p>首批师生入驻，标志着富源县高中集中办学、优化教育资源布局的重要里程碑。</p></li>
+<li><time>2023年1月</time><p>被正式评估认定为云南省一级三等高中。</p></li>
+<li><time>2023年</time><p>高考取得突破性成绩，相比三校合并前实现大幅跨越。</p></li>
+</ol>
+</section>
+
+<section id="campus">
+<h2>校园设施</h2>
+<p>总建设投入2.1亿元，硬件配置对标省级重点中学标准。所有常规教室均配备全套多媒体教学设备，并设有标准化考场。</p>
+<div class="group"><h3>主体建筑</h3>
+<ul class="chips"><li>教学综合楼：臻学楼</li><li>食堂：至膳楼（含汉族食堂与回族食堂）</li><li>学生宿舍：逸雅楼</li><li>逸静楼</li><li>嘉志楼</li><li>嘉誉楼</li><li>体育用房</li><li>室外公厕</li><li>浴池等生活设施</li></ul></div>
+<div class="group"><h3>运动场地</h3>
+<ul class="chips"><li>400米标准环形塑胶运动场1块</li><li>篮球场8块</li><li>排球场1块</li></ul></div>
+<div class="group"><h3>功能教室</h3>
+<ul class="chips"><li>理化生实验室11间</li><li>琴房8间</li><li>计算机教室6间</li><li>美术辅导室4间</li><li>心理健康室4间</li><li>舞蹈训练室2间</li><li>书法室2间</li><li>医务室2间</li><li>阅览室1间</li><li>校园书吧1间</li><li>电子钢琴室1间</li><li>科技室1间</li></ul></div>
+</section>
+
+<section id="culture">
+<h2>办学理念与校园文化</h2>
+<p class="lead">以学生为载体，人民满意为宗旨。</p>
+<div class="culture">
+<div><h3>校风</h3><p>务本道生，和爱致远</p></div>
+<div><h3>教风</h3><p>厚德汇智，博学善导</p></div>
+<div><h3>学风</h3><p>乐学明理，互助共进</p></div>
+</div>
+<blockquote>没有分数过不了今天，只有分数过不了明天。<cite>学校的教育思想</cite></blockquote>
+<blockquote>让平凡者优秀，让优秀者卓越。<cite>学校的办学追求</cite></blockquote>
+<p style="margin-top:34px">学校致力于培养兼具文化成绩与综合素养、具备创新精神和实践能力的学生。校内设有校园广播站、国旗护卫队、校篮球队、乒乓球社等学生社团，常年举办体育文化艺术节、成人礼、法制讲座、感恩教育、励志教育、书画大赛、诗歌朗诵大赛、读书慧谈等活动。</p>
+</section>
+
+<section id="results">
+<h2>特色办学与升学成果</h2>
+<p>学校以差异化发展为核心教学思路，在夯实常规高考文化科目教学的基础上，重点打造艺术、体育特色教育，由专业教师进行针对性辅导。</p>
+<ul class="chips"><li>音乐</li><li>舞蹈</li><li>传媒</li><li>播音主持</li><li>美术</li><li>体育</li><li>书法</li></ul>
+<h3 style="margin:44px 0 0;font:700 1.3rem var(--serif)">2023年高考</h3>
+<div class="bars">
+<div class="bar"><h3>一本上线<em>完成率267%</em></h3>
+<div class="row"><i>教体局指标</i><span class="t" style="width:37.5%"></span><b>6人</b></div>
+<div class="row"><i>实际上线</i><span class="a" style="width:100%"></span><b>16人</b></div>
+<p class="note">含艺体生7人，超出指标10人。</p></div>
+<div class="bar"><h3>二本应届上线<em>完成率220%</em></h3>
+<div class="row"><i>教体局指标</i><span class="t" style="width:45.6%"></span><b>187人</b></div>
+<div class="row"><i>实际上线</i><span class="a" style="width:100%"></span><b>410人</b></div>
+<p class="note">超出指标223人。</p></div>
+</div>
+</section>
+
+<section id="admission">
+<h2>招生与收费</h2>
+<p>以2023年招生方案为例，高一年级总招生计划1500人，另开设3个臻学班进行分层培养。学生录取由曲靖市招生办统一进行并发放录取通知书。</p>
+<div class="plan">
+<div><b>1500人</b>高一招生计划</div>
+<div><b>1450人</b>统招生</div>
+<div><b>50人</b>体育艺术特长生（艺术35人、体育15人）</div>
+</div>
+<dl class="fee">
+<div><dt>学费</dt><span class="dot"></span><dd>400元/学期</dd></div>
+<div><dt>代收书费（多退少补）</dt><span class="dot"></span><dd>1000元</dd></div>
+<div><dt>住宿费（住校生）</dt><span class="dot"></span><dd>80元/学期</dd></div>
+<div><dt>床上用品费</dt><span class="dot"></span><dd>335元</dd></div>
+<div><dt>校服费（两套）</dt><span class="dot"></span><dd>150元</dd></div>
+</dl>
+<p class="note">以上为2023年报到收费标准，以当年招生简章为准。</p>
+</section>
+</main>
+
+<footer>
+<strong>富源八中</strong>
+<p>云南省曲靖市富源县富法路胜境街道文澜街</p>
+<p>务本道生，和爱致远</p>
+</footer>
+</body>
+</html>
